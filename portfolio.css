@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    border: border-box;
+}
+ .navbar{
+    background-color:rgb(40, 39, 39);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+} 
+.navbar1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: gray;
+    font-size: 2rem;
+    
+}
+.navbar2{
+    font-size: 1.5rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: rgb(140, 131, 131);
+}
+.navbar a:hover{
+    background-color: rgb(77, 73, 73);
+    color: rgb(212, 214, 216);
+    border-radius: 1.5rem;
+}
+.main{
+    flex-wrap: wrap;
+    height: 3520px;
+    background-color: rgb(79, 78, 78);
+}
+#profile{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   height: 720px;
+  /* border-bottom: 2px solid gray; */
+   gap: 10rem;
+}
+#profile img{
+    height: 400px;
+    width: 350px;
+    border-radius: 50%;
+}
+.profile-text{
+    font-size: 2.5rem;
+    color: rgb(140, 131, 131);
+}
+.profile-text button a{
+    color: grey;
+    text-decoration: none;
+}
+.profile button{
+    border-radius: 2rem
+
+}
+button{
+    margin-top: 40px;
+    font-family:sans-serif;
+    font-size: 1rem;
+background-color:rgb(40, 39, 39);
+color: gray;
+border: none;
+height: 30px;
+width: 100px;
+}
+button:hover{
+    background-color: rgb(77, 73, 73);
+    color: rgb(212, 214, 216);
+}
+button:click{
+    background-color: rgb(77, 73, 73);
+    color: rgb(212, 214, 216);
+}
+
+/** .part1{
+    width: 70%;
+    height: 665px;
+    background-color: rgb(77, 73, 73);
+} 
+.profile{
+ width: 30%; 
+  background-color: rgb(61, 58, 58);
+    height: 665px;
+    background-color:  rgb(49, 48, 48);
+} **/
+#about{
+    background-color: rgb(61, 58, 58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    height: 680px;
+   /* border-bottom: 2px solid gray; */
+}
+.about1{
+    color: rgb(39, 37, 37);
+font-size: 30px;
+font-family:serif;
+font-weight: 700;
+margin-left: 90px;
+}
+.about2{
+    color: rgb(140, 131, 131);
+font-size: 1.5rem;
+margin-right: 90px;
+line-height: 2.5rem;
+}
+.about2-text2{
+    text-align: center;
+}
+#skills{
+    height: 650px;
+/* border-bottom: 2px solid gray; */
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10rem;
+}
+.skills-part1{
+    color: rgb(39, 37, 37);
+text-align: center;
+font-size: 33px;
+line-height: 4rem;
+}
+.skills-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: rgb(140, 131, 131);
+    gap: 7rem;
+    border: 4px solid rgb(44, 42, 42);
+    border-radius: 8px;
+    width: 40%;
+    height: 55%;
+}
+article{
+    margin-bottom: 40px;
+}
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   height: 770px;
+  /* border-bottom: 2px solid gray; */
+   gap: 8rem;
+}
+.project-text1{
+text-align: center;
+font-size: 45px;
+color: rgb(39, 37, 37);
+}
+.project-main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 600px;
+    width: 1000px;
+    background-color: rgb(79, 77, 77);
+    border: 4px solid rgb(44, 42, 42);
+    border-radius: 8px;
+}
+.project-part1{
+    height: 250px;
+    width: 300px;
+    border: 3px solid rgb(44, 42, 42);
+    border-radius:4px ;
+    background-color: rgb(107, 110, 109);
+}
+.project-part1 img{
+    height: 250px;
+    width: 100%;
+}
+.project-part2{
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: rgb(96, 97, 97);
+}
+.project-part2 img{
+    height: 250px;
+    width: 300px;
+}
+.project-part3{
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: rgb(107, 110, 109);
+}
+#contact{
+    height: 690px;
+/* border-bottom: 2px solid gray; */
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10rem;
+}
+.contact-part1{
+    color: rgb(39, 37, 37);
+text-align: center;
+font-size: 36px;
+line-height: 3rem;
+}
+.contact-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: rgb(140, 131, 131);
+    gap: 7rem;
+    border: 4px solid rgb(44, 42, 42);
+    border-radius: 8px;
+    width: 30%;
+    height: 35%;
+}
+.contact-part2 a{
+    color: grey;
+    text-decoration: none;
+}
